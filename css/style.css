@@ -1,0 +1,110 @@
+/*-----------------------------style pour les deux pages----------------------*/
+body{
+    padding: 0;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 60px;
+    background-color: #c8c8c8;
+    font-family: serif;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: serif;
+}
+a{
+    color: #cf3d28;
+    text-decoration-color: #cf3d28;
+}
+h2,h3{
+    color: #cf3d28;
+}
+td{
+    cursor: pointer;
+    padding: 10px;
+}
+th{
+    padding: 10px;
+    color: #dddddd;
+}
+/*Colorer les lignes paires*/
+tbody tr:nth-child(odd)
+{
+   background-color:#dddddd; 
+}
+/*Colorer les lignes impaires*/
+tbody tr:nth-child(even)
+{
+   background-color:#c8c8c8; 
+}
+tbody tr:nth-child(even):hover, tbody tr:nth-child(odd):hover{
+    background-color: #999;
+}
+table{
+    border-spacing: unset;
+}
+figcaption{
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+/* -------------------- style de la première page --------------------- */
+/*colorer l'entête du tableau (première ligne)*/
+.entete{
+    color: white;
+    background-color: #333333;
+}
+/*mettre la bordure rouge autour de l'image ordinateur*/
+.figureOrdi{
+    text-align: center;
+    border: 3px red solid;
+    border-radius: 10px;
+    background-color: #333333;
+    color: white;
+}
+/*taille de l'image*/
+.imageOrdi{
+    width: 100%;
+    height: 80%;
+    margin-bottom: 10px;
+}
+/*la bordure avec les tirets*/
+.footer{
+    margin: 20px;
+    border: 2px #4f45ae dashed;
+    border-width: thick;
+    background-color: #b7b7b7;
+}
+.textfooter{
+    color: #4f45ae;
+    font-weight: bold;
+    padding: 25px;
+}
+/* ----------------------------style de la deuxième page------------------------*/
+.citation{
+    margin-bottom: 50px;
+}
+.figurewww{
+    text-align: center;
+    border: 3px red solid;
+    border-radius: 10px;
+    background-color: #333333;
+    color: white;
+}
+.logowww{
+    width: 80%;
+    height: 70%;
+    margin-bottom: 10px;
+}
+.codesource{
+    margin: 20px;
+    border: 2px #4f45ae dashed;
+    border-width: thick;
+    background-color: #b7b7b7;
+}
+pre{
+    margin: 50px;
+    padding-left: 150px;
+}
