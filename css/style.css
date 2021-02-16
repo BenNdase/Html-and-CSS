@@ -71,15 +71,14 @@ figcaption{
     margin-bottom: 10px;
 }
 /*la bordure avec les tirets*/
-.footer{
+.reseau{
     margin: 20px;
     border: 2px #4f45ae dashed;
     border-width: thick;
     background-color: #b7b7b7;
 }
-.textfooter{
+.textreseau{
     color: #4f45ae;
-    font-weight: bold;
     padding: 25px;
 }
 /* ----------------------------style de la deuxième page------------------------*/
@@ -99,12 +98,11 @@ figcaption{
     margin-bottom: 10px;
 }
 .codesource{
+    color: #4f45ae;
+    font-size: medium;
     margin: 20px;
     border: 2px #4f45ae dashed;
     border-width: thick;
     background-color: #b7b7b7;
-}
-pre{
-    margin: 50px;
-    padding-left: 150px;
+    
 }
